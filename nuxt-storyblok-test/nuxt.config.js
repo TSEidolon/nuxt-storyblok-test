@@ -32,12 +32,12 @@ export default {
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    ["@storyblok/nuxt/module", {
-        accessToken: process.env.STORYBLOK_API_KEY,
-        bridge: true,
-        apiOptions: {}, // storyblok-js-client options
-        useApiClient: true
-    }]
+    // ["@storyblok/nuxt/module", {
+    //     accessToken: process.env.STORYBLOK_API_KEY,
+    //     bridge: true,
+    //     apiOptions: {}, // storyblok-js-client options
+    //     useApiClient: true
+    // }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
